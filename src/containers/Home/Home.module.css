@@ -1,0 +1,47 @@
+.Home{
+    width: 900px;
+    height: auto;
+    background-color: rgba(255, 255, 255, .7);
+    opacity: 1;
+    margin: 0 auto;
+}
+.Home h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.Home form{
+    padding: 50px;
+}
+.AttachFormGroup{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.AttachFormGroup .FormGroup{
+    
+}
+.ExtendedFormGroup{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ExtendedFormGroupDiv{
+    display: block;
+}
+.ExtendedFormGroup label{
+    display:none;
+}
+.HomeSendContainer{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.HomeSendButton{
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    background-color: blueviolet;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+}

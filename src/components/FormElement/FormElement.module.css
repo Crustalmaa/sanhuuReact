@@ -1,0 +1,42 @@
+.FormGroup{
+    
+    
+}
+.Show{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.Hide{
+    display: none;
+}
+.FormGroup select, .FormGroup input[type=text]{
+    box-sizing: border-box;
+   
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid blueviolet;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+.FormGroup select option{
+    background-color: transparent;
+}
+.RadioFormGroup{
+    display: flex;
+    justify-content: space-around;
+}
+.RadioFormElement{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.RadioInsideGroup{
+    grid-column: 1/-1;
+}
